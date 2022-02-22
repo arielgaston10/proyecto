@@ -40,7 +40,10 @@ article p{
 }
 /*BODY*/
 body{
-    background-color: rgb(135, 146, 196);
+    background: #DFE3E9;
+    background: -webkit-linear-gradient(bottom left, #DFE3E9, #8F96A7); 
+    background: -moz-linear-gradient(bottom left, #DFE3E9, #8F96A7);
+    background: linear-gradient(to top right, #DFE3E9, #8F96A7);
 }
 header{
     height: 20vh;
