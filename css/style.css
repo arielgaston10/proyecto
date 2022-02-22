@@ -11,7 +11,20 @@ h1{
     display: flex;
     flex-direction: row; 
     grid-area: nombre;
+}
+h1{
+    animation-duration: 2s;
+    animation-name: aparecer;
+    animation-iteration-count: infinite;
 } 
+@keyframes aparecer {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
     /* GRID INDEX-texto*/
 
 .grid-incio{
