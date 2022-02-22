@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    color:orange;
+    font-style: italic;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Righteous', cursive;
+    display: flex;
+    flex-direction: row; 
+    grid-area: nombre;
+} 
+    /* GRID INDEX-texto*/
+
+.grid-incio{
+    display: grid;
+    display: flex;
+    flex-direction: row;
+}
+footer p{
+    color:blue;
+    font-style: oblique;
+    font-size: 120%;
+    grid-area: texto2;
+}
+    /*Article*/
+
+article p{
+    color:skyblue;
+    font-size: 200%;
+    font-style: initial;
+    font-family: 'Bebas Neue', cursive;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    grid-area: texto;
+
+}
+/*BODY*/
+body{
+    background-color: rgb(135, 146, 196);
+}
+header{
+    height: 20vh;
+    background-image: url('../img/desk.jpg');
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    grid-area: encabezado;
+}
+/* NAV */
+.nav{
+    background-color: sandybrown;
+    height: 55px;
+    grid-area: menu;
+}
+.nav__links{
+    list-style: none;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+.nav__item{
+    display: inline-block;
+}
+.nav__link{
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 150%;
+}
+.nav__link--active{
+    font-weight: 800;
+    border-bottom: 2px solid blue;
+}
+.nav__search{
+    display: inline-block;
+    margin-left: 60px;
+    grid-area: busqueda;
+}
+.nav__input{
+    height: 25px;
+    border-radius: 10px;
+}
+/*CONTACTOS*/
+.body{
+    background-color: rgb(138, 186, 248);
+}
+.importante{
+    color: rgb(255, 255, 255);
+    font-size: 120%;
+}
+.body-img{
+    background-image: url('../img/stadium.jpg');
+}
+/*Grid Index*/
+.grid-galeria1{
+    display: grid;
+    height: 75vh;
+    width: 90%;
+    margin: 0% auto;
+    grid-template-columns:repeat(2, 2fr);
+    row-gap: 10px;
+    column-gap: 10px;
+}
+.grid-galeria1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+/*Imagenes*/
+main p{
+    color:skyblue;
+    font-size: 200%;
+    font-style: initial;
+    font-family: 'Bebas Neue', cursive;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+/*GRID GALERIA*/
+.grid-galeria{
+    display: grid;
+    height: 75vh;
+    width: 90%;
+    margin: 0% auto;
+    grid-template-columns: repeat(4, 1fr);
+    row-gap: 10px;
+    column-gap: 10px;
+}
+.grid-galeria img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
